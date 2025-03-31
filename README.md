@@ -6,7 +6,7 @@
 4. [Steps Taken](#steps-taken)  
    - [Data Cleaning](#data-cleaning)  
    - [Exploratory Data Analysis ](#exploratory-data-analysis)  
-5. [Key Insights and Findings](#keyinsights-and-findings)  
+5. [Key Insights and Findings ](#key-insights-and-findings)  
 6. [Recommendations](#recommendations)  
 7. [Conclusion](#conclusion)  
 ## Project Overview
@@ -35,7 +35,7 @@ SELECT
     Product_Category, 
     SUM(Sales) OVER (PARTITION BY Product_Category) AS Total_Sales 
 FROM ecommerce_Data;
-## Key insights & Findings
+## Key insights and Findings
 - Revenue Contribution by Gender: Male customers generated 55.15% of total revenue, while female customers accounted for 44.8%.
 - Login Distribution: Existing members had the highest login activity, while first-time sign-ups and new users recorded 0.17% and 0.03%, respectively.
 - Preferred Payment Method: Credit cards were the most used payment method, followed by money transfers, totaling 10,000 transactions.
@@ -70,5 +70,6 @@ FROM ecommerce_Data;
 ### Customer Experience & Retention
 - Introduce live chat or virtual assistance to provide real-time support for customer inquiries.
 - Leverage customer loyalty programs, offering exclusive discounts or membership perks to retain existing customers.
-##Conclusion
-
+## Conclusion
+This e-commerce analysis has provided key insights into customer behavior, product performance, and sales trends. Findings indicate that Fashion is the leading product category, Credit Card is the most preferred payment method, and November records the highest sales. Additionally, low engagement from new users and a high number of inactive customers highlight opportunities for improvement.
+I recommend ensuring sufficient stock availability for high-demand products, optimizing marketing strategies to attract and retain new users, and implementing customer re-engagement initiatives to drive business growth.
