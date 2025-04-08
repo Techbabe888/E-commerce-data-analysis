@@ -6,9 +6,10 @@
 4. [Steps Taken](#steps-taken)  
    - [Data Cleaning](#data-cleaning)  
    - [Exploratory Data Analysis ](#exploratory-data-analysis)  
-5. [Key Insights and Findings ](#key-insights-and-findings)  
-6. [Recommendations](#recommendations)  
-7. [Conclusion](#conclusion)  
+5. [Dashboard ](#dashboard)
+6. [Key Insights and Findings ](#key-insights-and-findings)  
+7. [Recommendations](#recommendations)  
+8. [Conclusion](#conclusion)  
 ## Project Overview
 This project analyzes an e-commerce dataset to understand customers behavior, products performance, and sales trends. The insights gained will help improve decision-making, enhance customer experience, and drive business growth.
 ## Data Source
@@ -35,6 +36,16 @@ SELECT
     Product_Category, 
     SUM(Sales) OVER (PARTITION BY Product_Category) AS Total_Sales 
 FROM ecommerce_Data;
+## Dashboard 
+
+![ecommerce dashboard](ecommerce%20dashboard.PNG)
+
+##  Download the Power BI File
+
+> Note: To explore or interact with the report, open the `.pbix` file using Power BI Desktop.
+
+👉 [Download Ecommerce report (.pbix)](Ecommerce%20report.pbix)
+
 ## Key insights and Findings
 - Revenue Contribution by Gender: Male customers generated 55.15% of total revenue, while female customers accounted for 44.8%.
 - Login Distribution: Existing members had the highest login activity, while first-time sign-ups and new users recorded 0.17% and 0.03%, respectively.
