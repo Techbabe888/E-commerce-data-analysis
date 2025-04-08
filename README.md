@@ -40,12 +40,6 @@ FROM ecommerce_Data;
 
 ![ecommerce dashboard](ecommerce%20dashboard.PNG)
 
-##  Download the Power BI File
-
-> Note: To explore or interact with the report, open the `.pbix` file using Power BI Desktop.
-
-👉 [Download Ecommerce report (.pbix)](Ecommerce%20report.pbix)
-
 ## Key insights and Findings
 - Revenue Contribution by Gender: Male customers generated 55.15% of total revenue, while female customers accounted for 44.8%.
 - Login Distribution: Existing members had the highest login activity, while first-time sign-ups and new users recorded 0.17% and 0.03%, respectively.
